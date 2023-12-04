@@ -1,0 +1,75 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    font-size: x-large;
+}
+
+.font-small {
+    font-size: 14px;
+}
+
+.font-large {
+    font-size: 18px;
+}
+
+.game-title {
+    font-size: 30px !important;
+    margin: 0% auto;
+    margin-top: 15px;
+}
+
+.pad-low {
+    padding-bottom: 40px;
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: medium;
+}
+
+.paddle {
+    background-color: white;
+    width: 10px;
+    height: 80px;
+    position: absolute;
+}
+
+.ball {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+#startButton {
+    font-family: 'Pixelify Sans', sans-serif;
+    width: 60px;
+    height: 25px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    background-color: black;
+    color:white;
+}
